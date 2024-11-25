@@ -8,7 +8,7 @@
 ---
 name: usageCI
 
-on: [push, pull]
+on: [push, pull_request]
 
 jobs:
   flask-test:
