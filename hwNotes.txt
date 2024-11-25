@@ -1,0 +1,101 @@
+Learn about RESTful API's
+	Web page communicates with a cloud based server via a REST API
+		- REST: Representational State Transfer
+			* essential it is something that is a HTTP service; we will access through our browser by going to a URL that starts with HTTP 
+			* A REST API is resting until you contact it for information
+		- this is a standardized software architecture style
+                - All about communication: Client --> Server and Server --> Client
+
+	API
+		- Application programming interface
+		- this is just seen as a simple contract (basically it is the interface
+	Benefits of REST API
+		- They are simple and standardized approach to communication
+		- scalable and stateless
+			* Easisly make modifications 
+			* What data is in which state does not matter. No need to worry about this
+			* High performance due to the support of caching
+	WHat does A REST API look like?
+		HTTP://ICECREAM.COM/API/FLAVORS
+		
+		- API is api portion of the endpoint
+		- FLAVORS is the resource within the REST API
+		
+		- The main building blocks in this example is the request from client to server and the response from the server to client
+
+
+
+	
+	CRUD Acronym			REST API Equivalent (HTTP) metthods/operations
+
+		C: Create	-->	Post 	
+		R: Read 	-->	Get
+		U: Update	-->	Put
+		D: Delete	-->	Delete
+
+	Requests
+		- Have operaration, endpoint, parameters/body and finally headers
+	Response
+		- typically in the form of JSON data
+			
+
+
+	
+
+
+Learn about JSON
+	JavaScript Object Notation
+		- this is a "Data Representation Format", similar to yamil files
+		- used across the internet for many API's and Config files in things like cames and in text editors like VScode
+		- since the file size is so small this makes it extremely Lightweight to use
+		- easy to read and write (much cleaner and many opening and closing tags to worry about) compared to XML
+		- Integrates nicely with javaScript because JSON is just a superset of JavaScript, which is used for front end and back end web applications
+
+	JSON Data Types
+		- Strings: "Hello World", "1", "Ramzi
+		- Numbers: 10, 1.5, -30, 1.2e10
+		- Booleans: True, False
+		- null: null
+		- Arrays: [1,2,3], ["Hello", "World]
+		- Objects: {"Key": "Value"}, {"age":30} (these are key value pairs
+
+
+	File Creation
+		- use the .json extension behind the file name 
+		- Example: user.json
+		
+
+	Object creation syntax
+	
+		{
+			"Key":"Value",
+			"Key":"Value"
+			
+		}
+
+
+	
+		Within user.json file
+
+		
+			{
+				"Name": "Ramzi",
+				"Race": "Black",
+				"Age": 25,
+				"Occupation": "Software Engineer"
+				"isEducated": true
+				"Hobbies": ["Weight Lifting", "Fishing", "Driving Cars", "Cooking"],
+				"Friends": [{
+					"name": "Maria",
+					"Race": "White",
+					"hasDog": true,
+					"Occupation": "Photo Retouching",
+					"Friends": [{
+                                        "name": "Michael",
+                                        "Race": "White",
+                                        "hasDog": false,
+                                        "Occupation": "Car Sales"]}
+					}]
+
+			
+			}

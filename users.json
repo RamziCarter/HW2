@@ -1,0 +1,32 @@
+[
+	{
+		"CompanyName": "Instagram",
+		"YearEstablished": 2010,
+		"NumberOfEmployees": 20100,
+		"NumberOfLocations": 2,
+		"inTech": true,
+		"CEO": "Adam Mosseri"
+	
+	},
+
+	{
+		"CompanyName": "Google",
+                "YearEstablished": 1998,
+                "NumberOfEmployees":180895,
+                "NumberOfLocations": 70,
+                "inTech": true,
+                "CEO": "Sundar Pichai"
+
+	},
+
+	{
+		"CompanyName": "Facebook",
+                "YearEstablished":  2004,
+                "NumberOfEmployees": 60000,
+                "NumberOfLocations": 90,
+                "inTech": true,
+                "CEO": "Mark Zuckerberg"
+
+	}
+
+]
